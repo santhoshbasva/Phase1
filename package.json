@@ -12,6 +12,7 @@
   "author": "Santhosh",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "framer-motion": "^7.3.5",
     "html-webpack-plugin": "^5.5.0",
     "next": "^12.3.1",
