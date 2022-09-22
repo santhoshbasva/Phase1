@@ -1,17 +1,12 @@
 
 import React from "react";
-import ToDo from "./Pages/ToDo";
-
-import { Head,Foot, TempApp } from "./Pages/WeatherCast";
+import WeatherCast from "./Pages/WeatherCast";
 
 const App = () =>{
     return (
-        <div>
-           <Head/> 
-           <TempApp/>
-           <Foot/>
-           {/* <ToDo/> */}
-        </div>
+        <>
+        <WeatherCast/>
+        </>
     )
 }
 export default App

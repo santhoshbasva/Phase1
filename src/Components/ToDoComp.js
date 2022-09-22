@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import Link from "next/link";
 
 export const Head = () => {
   return (
     <>
-      <div style={styled.HeadContainer}>
+      <div style={styled.HeadContainer}><Link href="/WeatherCast">
         <h1 style={styled.HeadFont}>Incresco Technologies</h1>
+        </Link>
       </div>
     </>
   );
